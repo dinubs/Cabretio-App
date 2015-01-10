@@ -13,10 +13,22 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+//    var url: String = "http://localhost:3000"
+    var url: String = "http://ft-researcher.herokuapp.com"
+    var userEmail: NSString = "";
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let URLCache = NSURLCache(memoryCapacity: 4 * 1024 * 1024, diskCapacity: 20 * 1024 * 1024, diskPath: nil)
+        NSURLCache.setSharedURLCache(URLCache)
+        
+        var userDefaults = NSUserDefaults.standardUserDefaults()
+        if let email: NSString = userDefaults.valueForKey("email") as? NSString {
+            // do something here when a highscore exists
+            self.userEmail = email as String
+        }
+        
         return true
     }
 

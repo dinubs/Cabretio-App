@@ -14,6 +14,23 @@
 		862762A81A2F6E460094A87A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862762A71A2F6E460094A87A /* Images.xcassets */; };
 		862762AB1A2F6E460094A87A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 862762A91A2F6E460094A87A /* LaunchScreen.xib */; };
 		862762B71A2F6E460094A87A /* Cabretio2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862762B61A2F6E460094A87A /* Cabretio2Tests.swift */; };
+		862762C11A2F73B80094A87A /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862762C01A2F73B80094A87A /* Connection.swift */; };
+		862762C31A2F740F0094A87A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862762C21A2F740F0094A87A /* SwiftyJSON.swift */; };
+		862762C51A2F7BCD0094A87A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862762C41A2F7BCD0094A87A /* DetailViewController.swift */; };
+		863F20A21A30C9D200574E5F /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F20A11A30C9D200574E5F /* NavigationController.swift */; };
+		863F20A41A30CB2100574E5F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F20A31A30CB2100574E5F /* UIColorExtension.swift */; };
+		864E1D4B1A417293002B2F99 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864E1D4A1A417293002B2F99 /* MyPageViewController.swift */; };
+		868556AE1A32A32A00CCB00B /* AlamoFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868556AD1A32A32A00CCB00B /* AlamoFire.swift */; };
+		868556BB1A32C4EC00CCB00B /* Alamofire.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 868556B51A32C45F00CCB00B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		868556BF1A32C94200CCB00B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868556BE1A32C94200CCB00B /* SearchViewController.swift */; };
+		86CC8BF91A3FC2C9006A3136 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CC8BF81A3FC2C9006A3136 /* LoginViewController.swift */; };
+		86E22B171A31399E00BEBB25 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E22B161A31399E00BEBB25 /* TableCell.swift */; };
+		86E22B191A31474400BEBB25 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 86E22B181A31474400BEBB25 /* thumb.png */; };
+		86E22B1F1A31A0A400BEBB25 /* book.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86E22B1E1A31A0A400BEBB25 /* book.jpg */; };
+		86E22B211A31A22800BEBB25 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E22B201A31A22800BEBB25 /* TabBarController.swift */; };
+		86E22B271A31A96500BEBB25 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 86E22B261A31A96500BEBB25 /* book.png */; };
+		86F9288B1A3FDAAA00025C15 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F9288A1A3FDAAA00025C15 /* SCLAlertView.swift */; };
+		86F9288D1A40197800025C15 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F9288C1A40197800025C15 /* TransitionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +41,42 @@
 			remoteGlobalIDString = 862762971A2F6E450094A87A;
 			remoteInfo = Cabretio2;
 		};
+		868556B41A32C45F00CCB00B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 868556AF1A32C45F00CCB00B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		868556B61A32C45F00CCB00B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 868556AF1A32C45F00CCB00B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = AlamofireTests;
+		};
+		868556BC1A32C4F700CCB00B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 868556AF1A32C45F00CCB00B /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		868556BA1A32C4D000CCB00B /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				868556BB1A32C4EC00CCB00B /* Alamofire.framework in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		862762981A2F6E450094A87A /* Cabretio2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cabretio2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +90,24 @@
 		862762B01A2F6E460094A87A /* Cabretio2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cabretio2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		862762B51A2F6E460094A87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		862762B61A2F6E460094A87A /* Cabretio2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cabretio2Tests.swift; sourceTree = "<group>"; };
+		862762C01A2F73B80094A87A /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		862762C21A2F740F0094A87A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		862762C41A2F7BCD0094A87A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		863F20A11A30C9D200574E5F /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		863F20A31A30CB2100574E5F /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		864E1D4A1A417293002B2F99 /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		868556AD1A32A32A00CCB00B /* AlamoFire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamoFire.swift; sourceTree = "<group>"; };
+		868556AF1A32C45F00CCB00B /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../Downloads/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		868556BE1A32C94200CCB00B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		86CC8BF81A3FC2C9006A3136 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		86E22B161A31399E00BEBB25 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		86E22B181A31474400BEBB25 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		86E22B1E1A31A0A400BEBB25 /* book.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book.jpg; sourceTree = "<group>"; };
+		86E22B201A31A22800BEBB25 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		86E22B261A31A96500BEBB25 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		86F9288A1A3FDAAA00025C15 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		86F9288C1A40197800025C15 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		D03871748A0B8D8C59C6E57C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +134,7 @@
 				8627629A1A2F6E450094A87A /* Cabretio2 */,
 				862762B31A2F6E460094A87A /* Cabretio2Tests */,
 				862762991A2F6E450094A87A /* Products */,
+				8683C87200B6EADD7FC71C22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,8 +152,22 @@
 			children = (
 				8627629D1A2F6E460094A87A /* AppDelegate.swift */,
 				862762A21A2F6E460094A87A /* ViewController.swift */,
+				868556BE1A32C94200CCB00B /* SearchViewController.swift */,
+				863F20A11A30C9D200574E5F /* NavigationController.swift */,
+				863F20A31A30CB2100574E5F /* UIColorExtension.swift */,
+				862762C41A2F7BCD0094A87A /* DetailViewController.swift */,
+				862762C01A2F73B80094A87A /* Connection.swift */,
+				86E22B161A31399E00BEBB25 /* TableCell.swift */,
 				862762A41A2F6E460094A87A /* Main.storyboard */,
+				864E1D4A1A417293002B2F99 /* MyPageViewController.swift */,
+				86F9288C1A40197800025C15 /* TransitionManager.swift */,
+				86F9288A1A3FDAAA00025C15 /* SCLAlertView.swift */,
+				86CC8BF81A3FC2C9006A3136 /* LoginViewController.swift */,
+				868556AD1A32A32A00CCB00B /* AlamoFire.swift */,
+				86E22B201A31A22800BEBB25 /* TabBarController.swift */,
 				862762A71A2F6E460094A87A /* Images.xcassets */,
+				868556AF1A32C45F00CCB00B /* Alamofire.xcodeproj */,
+				862762C21A2F740F0094A87A /* SwiftyJSON.swift */,
 				862762A91A2F6E460094A87A /* LaunchScreen.xib */,
 				8627629F1A2F6E460094A87A /* Cabretio2.xcdatamodeld */,
 				8627629B1A2F6E460094A87A /* Supporting Files */,
@@ -93,6 +178,9 @@
 		8627629B1A2F6E460094A87A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				86E22B261A31A96500BEBB25 /* book.png */,
+				86E22B181A31474400BEBB25 /* thumb.png */,
+				86E22B1E1A31A0A400BEBB25 /* book.jpg */,
 				8627629C1A2F6E460094A87A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -115,6 +203,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8683C87200B6EADD7FC71C22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D03871748A0B8D8C59C6E57C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		868556B01A32C45F00CCB00B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				868556B51A32C45F00CCB00B /* Alamofire.framework */,
+				868556B71A32C45F00CCB00B /* AlamofireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,10 +230,13 @@
 				862762941A2F6E450094A87A /* Sources */,
 				862762951A2F6E450094A87A /* Frameworks */,
 				862762961A2F6E450094A87A /* Resources */,
+				868556BA1A32C4D000CCB00B /* Copy Files */,
+				864E1D4C1A44E05E002B2F99 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				868556BD1A32C4F700CCB00B /* PBXTargetDependency */,
 			);
 			name = Cabretio2;
 			productName = Cabretio2;
@@ -182,6 +290,12 @@
 			mainGroup = 8627628F1A2F6E450094A87A;
 			productRefGroup = 862762991A2F6E450094A87A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 868556B01A32C45F00CCB00B /* Products */;
+					ProjectRef = 868556AF1A32C45F00CCB00B /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				862762971A2F6E450094A87A /* Cabretio2 */,
@@ -190,11 +304,31 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		868556B51A32C45F00CCB00B /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 868556B41A32C45F00CCB00B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		868556B71A32C45F00CCB00B /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = 868556B61A32C45F00CCB00B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		862762961A2F6E450094A87A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86E22B191A31474400BEBB25 /* thumb.png in Resources */,
+				86E22B1F1A31A0A400BEBB25 /* book.jpg in Resources */,
+				86E22B271A31A96500BEBB25 /* book.png in Resources */,
 				862762A61A2F6E460094A87A /* Main.storyboard in Resources */,
 				862762AB1A2F6E460094A87A /* LaunchScreen.xib in Resources */,
 				862762A81A2F6E460094A87A /* Images.xcassets in Resources */,
@@ -210,14 +344,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		864E1D4C1A44E05E002B2F99 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run ca1b0a892153a933ce5c88ee6099f603e3b22f05 dcc7872ec767901d3960c13f4deb79699d8c927bd84bfcbb4eb39ff8268f906f";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		862762941A2F6E450094A87A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86E22B171A31399E00BEBB25 /* TableCell.swift in Sources */,
 				862762A31A2F6E460094A87A /* ViewController.swift in Sources */,
+				868556AE1A32A32A00CCB00B /* AlamoFire.swift in Sources */,
 				8627629E1A2F6E460094A87A /* AppDelegate.swift in Sources */,
+				86E22B211A31A22800BEBB25 /* TabBarController.swift in Sources */,
 				862762A11A2F6E460094A87A /* Cabretio2.xcdatamodeld in Sources */,
+				86F9288D1A40197800025C15 /* TransitionManager.swift in Sources */,
+				864E1D4B1A417293002B2F99 /* MyPageViewController.swift in Sources */,
+				868556BF1A32C94200CCB00B /* SearchViewController.swift in Sources */,
+				863F20A41A30CB2100574E5F /* UIColorExtension.swift in Sources */,
+				862762C51A2F7BCD0094A87A /* DetailViewController.swift in Sources */,
+				862762C31A2F740F0094A87A /* SwiftyJSON.swift in Sources */,
+				863F20A21A30C9D200574E5F /* NavigationController.swift in Sources */,
+				86CC8BF91A3FC2C9006A3136 /* LoginViewController.swift in Sources */,
+				86F9288B1A3FDAAA00025C15 /* SCLAlertView.swift in Sources */,
+				862762C11A2F73B80094A87A /* Connection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +399,11 @@
 			isa = PBXTargetDependency;
 			target = 862762971A2F6E450094A87A /* Cabretio2 */;
 			targetProxy = 862762B11A2F6E460094A87A /* PBXContainerItemProxy */;
+		};
+		868556BD1A32C4F700CCB00B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = 868556BC1A32C4F700CCB00B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -409,6 +577,7 @@
 				862762BC1A2F6E460094A87A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		862762BD1A2F6E460094A87A /* Build configuration list for PBXNativeTarget "Cabretio2Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +586,7 @@
 				862762BF1A2F6E460094A87A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
